@@ -1,4 +1,3 @@
-
 #ifndef DESTINATARIO_H
 #define DESTINATARIO_H
 
