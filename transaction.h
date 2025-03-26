@@ -22,5 +22,4 @@ public:
     std::string toString() const;
     static transaction fromString(const std::string& line);
 };
-
 #endif // TRANSACTION_H
