@@ -21,5 +21,4 @@ public:
     std::string toString() const;
     static destinatario fromString(const std::string& line);
 };
-
 #endif // DESTINATARIO_H
