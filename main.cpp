@@ -5,6 +5,7 @@
 #include "include/comptebancaire.h"
 
 int main() {
+    
     srand(time(0)); // Générer des nombres aléatoires différents à chaque exécution
 
     comptebancaire compte;
