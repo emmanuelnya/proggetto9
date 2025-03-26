@@ -20,7 +20,6 @@ if(BUILD_TESTS)
     # Cible pour les tests
     add_executable(tests
             tests/tests.cpp
-            tests/tests_main.cpp
     )
 
     target_link_libraries(tests
