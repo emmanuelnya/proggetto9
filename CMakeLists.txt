@@ -14,7 +14,6 @@ add_executable(Progetto8
         src/comptebancaire.cpp
         src/transaction.cpp
 )
-
 option(BUILD_TESTS "Build tests" ON)
 
 if(BUILD_TESTS)
