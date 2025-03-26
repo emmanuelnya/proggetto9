@@ -18,7 +18,6 @@ std::string comptebancaire::generernumcompte() {
 std::string comptebancaire::genererIban() {
     return "IT73J0589653695500000012321-" + std::to_string(rand() % 10000);
 }
-
 double comptebancaire::getSolde() const {
     return solde;
 }
