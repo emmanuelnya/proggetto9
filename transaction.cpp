@@ -2,6 +2,7 @@
 #include "../include/destinatario.h"
 #include <sstream>
 #include<iomanip>
+
 transaction::transaction(double m, std::string t, std::string d, destinatario desti) : montant(m), type(std::move(t)), date(std::move(d)), dest(std::move(desti)) {}
 
 double transaction::getMontant() const {
