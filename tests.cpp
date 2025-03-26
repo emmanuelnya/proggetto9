@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include "../include/comptebancaire.h"
-
 // Test per la classe destinatario
 TEST(DestinatarioTest, CreazioneConIBAN) {
  const  destinatario d("Mario Rossi", "IT123456789");
