@@ -1,7 +1,6 @@
 #include "../include/destinatario.h"
 #include <cstdlib>
 #include <sstream>
-
 destinatario::destinatario(std::string n, std::string i) : name(std::move(n)), iban(std::move(i)) {
     Numtransaction = genererNumeroTransaction();
 }
